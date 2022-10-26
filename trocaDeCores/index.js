@@ -13,8 +13,6 @@ function clicandoButton(){
 
 function selecionandoCores (){
     const elementoBody = document.getElementById('body');
-    const cores = ['#b8af03', '#ee7f27', '#42302e', '#45936c', '#acba9d'];
-    const numeroDeSelecaoDeCor = Math.floor(Math.random() * 4);
-    const cor = cores[numeroDeSelecaoDeCor];
-    elementoBody.style.backgroundColor = cor;
+    const gerandoCor = '#' + Math.floor(Math.random() * 0x1000000).toString(16).padStart(6, '0');
+    elementoBody.style.backgroundColor = gerandoCor;
 }
