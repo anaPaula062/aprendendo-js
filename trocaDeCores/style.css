@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Caveat:wght@400;500;600&family=Fira+Sans:ital,wght@1,500&family=Hind+Siliguri&family=Inter+Tight:ital,wght@0,400;0,600;1,200&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;1,400&family=Roboto+Slab:wght@300;400&family=Roboto:ital,wght@0,500;1,300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +15,7 @@
 }
 
 .mudar-cor{
+    font-family: 'Caveat', cursive;
     padding: 20px;
     border-radius: 50px;
     border: 0;
